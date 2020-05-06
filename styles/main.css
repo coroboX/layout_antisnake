@@ -1,4 +1,43 @@
 body {
   margin: 0; }
 
+.snake {
+  display: grid;
+  grid-template: repeat(6, 300px)/1fr; }
+  .snake__part {
+    display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: blueviolet; }
+  .snake__part:nth-child(1) {
+    background-color: red; }
+  .snake__part:nth-child(2) {
+    background-color: #cc0000; }
+  .snake__part:nth-child(3) {
+    background-color: #990000; }
+  .snake__part:nth-child(4) {
+    background-color: #660000; }
+  .snake__part:nth-child(5) {
+    background-color: #330000; }
+  .snake__part:nth-child(6) {
+    background-color: black; }
+  .snake__part:nth-child(7) {
+    background-color: black; }
+  .snake__num {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px; }
+
+@media screen and (min-width: 600px) {
+  .snake {
+    grid-template: repeat(3, 300px)/1fr 1fr; } }
+
+@media screen and (min-width: 900px) {
+  .snake {
+    grid-template: repeat(2, 300px)/1fr 1fr 1fr; } }
+
 /*# sourceMappingURL=main.css.map */
