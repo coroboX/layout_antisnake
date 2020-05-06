@@ -1,3 +1,27 @@
+// :root {
+//   --grid-temp: ;
+// }
+
+@keyframes curtain-in {
+  0% {
+    grid-gap: 0;
+  }
+
+  100% {
+    grid-gap: 10vw;
+  }
+}
+
+@keyframes curtain-out {
+  0% {
+    grid-gap: 10vw;
+  }
+
+  100% {
+    grid-gap: 0;
+  }
+}
+
 body {
   margin: 0;
 }
@@ -26,13 +50,21 @@ body {
   }
 }
 
-@media screen and (min-width: 600px) {
+.snake--animate-in {
+  animation: 0.4s curtain-in ease both;
+}
+
+.snake--animate-out {
+  animation: 0.4s 0.4s curtain-out ease both;
+}
+
+@media (min-width: 600px) {
   .snake {
     grid-template: repeat(3, 300px) / 1fr 1fr;
   }
 }
 
-@media screen and (min-width: 900px) {
+@media (min-width: 900px) {
   .snake {
     grid-template: repeat(2, 300px) / 1fr 1fr 1fr;
   }
