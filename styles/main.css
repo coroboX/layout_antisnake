@@ -1,3 +1,8 @@
+html {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100px; }
+
 body {
   margin: 0; }
 
@@ -27,10 +32,6 @@ body {
     background-color: black; }
   .snake__part:nth-child(7) {
     background-color: black; }
-  .snake__num {
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 100px; }
 
 @media screen and (min-width: 600px) {
   .snake {

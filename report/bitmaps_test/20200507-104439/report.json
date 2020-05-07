@@ -4,7 +4,7 @@
     {
       "pair": {
         "reference": "../bitmaps_reference/Entire_document_300.png",
-        "test": "../bitmaps_test/20200506-195710/Entire_document_300.png",
+        "test": "../bitmaps_test/20200507-104439/Entire_document_300.png",
         "selector": "document",
         "fileName": "Entire_document_300.png",
         "label": "Entire document",
@@ -28,7 +28,7 @@
     {
       "pair": {
         "reference": "../bitmaps_reference/Entire_document_450.png",
-        "test": "../bitmaps_test/20200506-195710/Entire_document_450.png",
+        "test": "../bitmaps_test/20200507-104439/Entire_document_450.png",
         "selector": "document",
         "fileName": "Entire_document_450.png",
         "label": "Entire document",
@@ -52,7 +52,7 @@
     {
       "pair": {
         "reference": "../bitmaps_reference/Entire_document_600.png",
-        "test": "../bitmaps_test/20200506-195710/Entire_document_600.png",
+        "test": "../bitmaps_test/20200507-104439/Entire_document_600.png",
         "selector": "document",
         "fileName": "Entire_document_600.png",
         "label": "Entire document",
@@ -76,7 +76,7 @@
     {
       "pair": {
         "reference": "../bitmaps_reference/Entire_document_750.png",
-        "test": "../bitmaps_test/20200506-195710/Entire_document_750.png",
+        "test": "../bitmaps_test/20200507-104439/Entire_document_750.png",
         "selector": "document",
         "fileName": "Entire_document_750.png",
         "label": "Entire document",
@@ -100,7 +100,7 @@
     {
       "pair": {
         "reference": "../bitmaps_reference/Entire_document_900.png",
-        "test": "../bitmaps_test/20200506-195710/Entire_document_900.png",
+        "test": "../bitmaps_test/20200507-104439/Entire_document_900.png",
         "selector": "document",
         "fileName": "Entire_document_900.png",
         "label": "Entire document",
@@ -124,7 +124,7 @@
     {
       "pair": {
         "reference": "../bitmaps_reference/Entire_document_1050.png",
-        "test": "../bitmaps_test/20200506-195710/Entire_document_1050.png",
+        "test": "../bitmaps_test/20200507-104439/Entire_document_1050.png",
         "selector": "document",
         "fileName": "Entire_document_1050.png",
         "label": "Entire document",
@@ -148,7 +148,7 @@
     {
       "pair": {
         "reference": "../bitmaps_reference/Entire_document_1200.png",
-        "test": "../bitmaps_test/20200506-195710/Entire_document_1200.png",
+        "test": "../bitmaps_test/20200507-104439/Entire_document_1200.png",
         "selector": "document",
         "fileName": "Entire_document_1200.png",
         "label": "Entire document",
